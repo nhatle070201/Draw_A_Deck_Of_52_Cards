@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Rút bài</string>
+    <string name="hello">Xin chào</string>
+    <string name="rutbai">Rút ngẫu nhiên 1 lá bài</string>
+    <string name="txtthongbao">Thông báo</string>
+
+</resources>

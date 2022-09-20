@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+    <TextView
+        android:id="@+id/txtthongbao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xin mời rút bài"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/rutbai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rutbai" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivlabai1"
+            android:layout_width="120dp"
+            android:layout_height="200dp"
+            android:src="@drawable/b2fv" />
+
+        <ImageView
+            android:id="@+id/ivlabai2"
+            android:layout_width="120dp"
+            android:layout_height="200dp"
+            android:src="@drawable/b2fv" />
+
+        <ImageView
+            android:id="@+id/ivlabai3"
+            android:layout_width="120dp"
+            android:layout_height="200dp"
+            android:src="@drawable/b2fv" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
